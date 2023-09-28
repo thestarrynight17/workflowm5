@@ -1,0 +1,366 @@
+body{
+    width:100%;
+    margin:0 auto;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+    position: relative;
+    letter-spacing: -1px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Kantumruy Pro';
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color:#232323;
+    text-align: center;
+    
+}
+header{
+       position: fixed;
+       z-index: 1;
+       background-color: white;
+       height: 80px;
+       width: 100%;
+       box-shadow: 0px 2px 7px -2px #AFC6CE;
+       top:0;
+}
+.logo{
+    width: 43px;
+    padding: 0;
+}
+
+.flex-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+nav ul{
+   list-style-type: none;
+  
+   
+}
+
+.workflow{
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+    font-weight: 900;
+}
+.home{
+    display:flex;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+   
+}
+.home li{
+    padding: 10px;
+}
+.get-started{
+  display: flex;
+  margin:0;
+  align-items: center;
+}
+.btn-start {
+    border-radius: 28px;
+    font-size: 15px;
+    background: #1f357f;
+    padding: 12px 15px 12px 15px;
+    border: none;
+    margin:10px;
+  }
+  .btn-start a{
+     color: white;
+     text-decoration: none;
+     font-family: 'Kantumruy Pro', sans-serif;
+  }
+  .btn-start:hover{
+    transform: scale(1.1);
+  }
+  .btn-help {
+    border-radius: 28px;
+    font-size: 15px;
+    background: #eff0ff;
+    padding: 12px 17px 12px 17px;
+    border: none;
+    margin:10px;
+  }
+
+  .btn-help a{
+    text-decoration: none;
+    color: #000fef;
+    font-family: 'Kantumruy Pro', sans-serif;
+  }
+  .btn-help:hover{
+    transform: scale(1.1);
+}
+.blue{
+    background-color:#ECF0FF;
+    padding: 45px 80px;
+    justify-content: center; /* Horizontally center */
+    align-items: center
+ 
+}
+.webchat-content{
+    display: flex;
+}
+.webchat-text h1{
+    font-size: 45px;
+    font-weight:600;
+    color:#2b1c50;
+    margin: 0;
+}
+.webchat-text{
+    padding:40px;
+    height: 20%;
+}
+.blue p{
+    font-size: 25px;
+}
+
+.first-img{
+    width:75%;
+    border-radius: 30px;
+}
+
+.web-img{
+    display: flex;
+    padding: auto;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
+}
+.img-border{
+    width: 480px;
+    height: 390px;
+    background-color: #9F92EC;
+    border-radius: 30px;
+    margin: 57px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin-top: 80px;
+}
+.btn{
+    border-radius: 100px;
+    font-size: 20px;
+    background: #565add;
+    padding: 25px 70px 25px 70px;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Kantumruy Pro', sans-serif;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+  }
+  .features h1{
+    font-size: 70px;
+    font-weight: 600;
+    color:#2b1c50;
+  }
+  .features{
+    margin: 100px 70px;
+    text-align: center;
+  }
+
+  .features-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .features h3{
+    font-size: 24px;
+    margin-left:15px;
+    font-weight: 600;
+    color: #232323;
+  }
+
+  .features p{
+  text-align: left;
+  }
+
+  .features-content-box{
+   padding: 20px;
+  }
+  
+  .features-content-box p{
+  color:rgb(119, 119, 119);
+  }
+  .feature-logo-name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .increase-content{
+    margin: 100px 70px;
+    display: flex;
+  }
+
+  .second-image{
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .increase-content-text{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    margin: auto 0;
+    
+  }
+  .increase-content-img{
+    width: 50%;
+  }
+
+  .increase-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin:0;
+    color: #232323;
+  }
+
+  .increase-content p{
+    margin: 0;
+    font-size: 20px;
+    color:rgb(119, 119, 119);
+  }
+
+ 
+  .increase-icon{
+    padding:25px;
+  }
+
+.pricing-plan h1{
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+}
+
+  .plan-cards{
+    display: flex;
+    justify-content: center;
+  }
+
+  .plan-card{
+    border-radius: 45px;
+    width: 400px;
+    height: 520px;
+    box-shadow: 0 0 20px 0 lightgray;
+    padding: 50px;
+    text-align: left;
+  }
+
+  .plan-card p{
+    font-size: 22px;
+    font-weight: 500;
+    color:#1f357f;
+    margin:0;
+  }
+ .plan-card h2{
+    margin:0;
+    font-size:45px;
+    font-weight: 600;
+    margin: 0;
+    
+ }
+  .card1{
+     background-color: #d1d1f7;
+     position: relative;
+     left:15px;
+  }
+
+  .card2{
+ background-color:white;
+ position: relative;
+ right:15px;
+  }
+
+  .plan-cards ul{
+    color: #726c89;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+  
+  .plan-cards li::before{
+    content:"•";
+    color:#565add;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -2em
+}
+
+.plan-card-btn{
+    background: #565add;
+    border-radius: 45px;
+    border: 4px solid #d1d1f7;
+    padding: 19px 35px 19px 35px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    margin: 25px 0;
+}
+
+.plan-card-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.plan-card-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.plan-card-header{
+    margin-top:20px;
+}
+
+.mylists{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.white-class h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin:0;
+}
+
+.mylists li{
+    line-height: 3;
+    font-weight: 400;
+    color:#3d5943;
+    list-style: none;
+}
+
+.white-class{
+    margin: 50px 80px;
+}
+
+.mylists li::before{
+    content: "✓";
+    background-color: rgb(232, 245, 227);
+    border-radius:50%;
+    padding:7px 12px;
+    margin: 15px;
+}
